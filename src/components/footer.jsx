@@ -19,7 +19,7 @@ export default function Footer() {
   return (
     <footer className="flex items-center justify-between py-6 sm:py-12 border-t border-slate-800">
       <a href="https://alexperronnet.dev" onMouseEnter={handleMouseEnter}>
-        <Svg name="ap-logo" id="footer__logo" className="h-6 sm:h-8 hover:text-teal-400" />
+        <Svg name="ap-logo" id="footer__logo" className="h-6 sm:h-8" />
       </a>
       <a
         href="https://github.com/alexperronnet/openclassrooms-showcase"
