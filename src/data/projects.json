@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Turn a mock-up into a website with HTML & CSS",
+    "name": "Booki",
+    "number": 2,
+    "status": "Validated",
+    "links": {
+      "source": "https://github.com/alexperronnet/openclassrooms-p2-booki",
+      "demo": "https://alexperronnet.github.io/openclassrooms-p2-booki/"
+    }
+  },
+  {
+    "title": "Make a web page dynamic with CSS animations",
+    "name": "OhMyFood",
+    "number": 3,
+    "status": "Validated",
+    "links": {
+      "source": "https://github.com/alexperronnet/openclassrooms-p3-ohmyfood",
+      "demo": "https://alexperronnet.github.io/openclassrooms-p3-ohmyfood/"
+    }
+  },
+  {
+    "title": "Create a landing page with Javascript",
+    "name": "GameOn",
+    "number": 4,
+    "status": "Validated",
+    "links": {
+      "source": "https://github.com/alexperronnet/openclassrooms-p4-gameon",
+      "demo": "https://alexperronnet.github.io/openclassrooms-p4-gameon/"
+    }
+  },
+  {
+    "title": "Create a landing page with Javascript",
+    "name": "FishEye",
+    "number": 6,
+    "status": "In Progress",
+    "links": {
+      "source": "https://github.com/alexperronnet/openclassrooms-p6-fisheye",
+      "demo": "https://alexperronnet.github.io/openclassrooms-p6-fisheye/"
+    }
+  },
+  {
+    "title": "Develop a search algorithm in JavaScript",
+    "name": "Les petit plats",
+    "number": 7,
+    "status": "Not Started",
+    "links": {
+      "source": "",
+      "demo": ""
+    }
+  },
+  {
+    "title": "Debug and test an HR SaaS",
+    "name": "Billed",
+    "number": 9,
+    "status": "Not Started",
+    "links": {
+      "source": "",
+      "demo": ""
+    }
+  },
+  {
+    "title": "Develop a web application with React and React Router",
+    "name": "Kasa",
+    "number": 11,
+    "status": "Not Started",
+    "links": {
+      "source": "",
+      "demo": ""
+    }
+  },
+  {
+    "title": "Develop an analytics dashboard with React",
+    "name": "SportSee",
+    "number": 12,
+    "status": "Not Started",
+    "links": {
+      "source": "",
+      "demo": ""
+    }
+  },
+  {
+    "title": "Use an API for a bank account with React",
+    "name": "Argent Bank",
+    "number": 13,
+    "status": "Not Started",
+    "links": {
+      "source": "",
+      "demo": ""
+    }
+  },
+  {
+    "title": "Switch a jQuery library to React",
+    "name": "Wealth Health",
+    "number": 14,
+    "status": "Not Started",
+    "links": {
+      "source": "",
+      "demo": ""
+    }
+  }
+]

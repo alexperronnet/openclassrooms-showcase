@@ -10,4 +10,8 @@
   ::selection {
     @apply bg-teal-400/10 text-teal-400;
   }
+
+  .link-highlight {
+    @apply relative before:transition-[width] before:content-[''] before:absolute before:inset-0 before:bg-teal-400/10 before:w-0 before:block hover:text-teal-400 hover:before:w-full;
+  }
 }

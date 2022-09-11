@@ -8,7 +8,7 @@ export default function Hero() {
       <Svg name="oc-logo" className="h-5 md:h-6 lg:h-8" />
       <p className="text-teal-400 text-center text-sm md:text-base">
         Here is where I store all my projects I completed so far for{' '}
-        <a className="font-bold hover:underline" href="https://openclassrooms.com/">
+        <a className="font-bold link-highlight" href="https://openclassrooms.com/">
           OpenClassrooms
         </a>
       </p>
