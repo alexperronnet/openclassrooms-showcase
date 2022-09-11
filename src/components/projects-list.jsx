@@ -17,10 +17,10 @@ export default function ProjectsList() {
           <tr key={index} className="bg-slate-800 border-b border-slate-700 last:border-b-0">
             <td className="hidden lg:table-cell lg:p-6">{project.number}</td>
             <td className="p-6 lg:border-l lg:border-slate-700">
-              <span className="hidden md:table-cell md:font-bold">{project.title}</span>
-              <span className="font-bold md:font-normal md:text-xs md:text-slate-400 md:block md:mt-2">
+              <h2 className="hidden md:table-cell md:font-bold">{project.title}</h2>
+              <h3 className="font-bold md:font-normal md:text-xs md:text-slate-400 md:block md:mt-2">
                 {project.name}
-              </span>
+              </h3>
             </td>
             {project.status === 'Validated' ? (
               <td className="p-6 text-slate-100  border-l border-slate-700">
