@@ -6,10 +6,10 @@ export default function useOutboundLink() {
     const links = document.querySelectorAll('a');
 
     links.forEach(link => {
-      link.addEventListener('click', event => {
+      link.addEventListener('click', () => {
         if (link.hostname !== window.location.hostname) {
-          event.preventDefault();
-          window.open(link.href, '_blank', 'noopener,noreferrer');
+          link.setAttribute('target', '_blank');
+          link.setAttribute('rel', 'noopener noreferrer');
         }
       });
     });
