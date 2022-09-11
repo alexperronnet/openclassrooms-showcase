@@ -6,4 +6,8 @@
   body {
     @apply bg-slate-900 text-slate-300;
   }
+
+  ::selection {
+    @apply bg-teal-400/10 text-teal-400;
+  }
 }
