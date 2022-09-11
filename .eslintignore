@@ -2,3 +2,5 @@ node_modules/
 dist/
 .prettierrc.cjs
 .eslintrc.cjs
+tailwind.config.cjs
+postcss.config.cjs
