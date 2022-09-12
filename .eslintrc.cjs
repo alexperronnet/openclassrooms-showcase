@@ -12,6 +12,5 @@ module.exports = {
   plugins: ['react'],
   rules: {
     'react/prop-types': 'off',
-    'react/no-unknown-property': ['isMounted', { ignore: ['jsx'] }],
   },
 };

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useOutboundLink, useToggleView } from '~/hooks';
-import { Loader, Hero, ToggleView, ProjectsGrid, ProjectsList, Footer } from '~/components';
+import { Loader, Beams, Hero, ToggleView, ProjectsGrid, ProjectsList, Footer } from '~/components';
 
 export default function App() {
   useOutboundLink();
@@ -11,15 +11,18 @@ export default function App() {
   return isLoading ? (
     <Loader finishLoading={() => setIsLoading(false)} />
   ) : (
-    <div className="container">
-      <div className="h-screen flex flex-col justify-between">
-        <Hero />
-        <div className="flex flex-col gap-6">
-          <ToggleView onClick={() => setProjectsView()} view={projectsView} />
-          <section>{projectsView === 'grid' ? <ProjectsGrid /> : <ProjectsList />}</section>
+    <>
+      <Beams />
+      <div className="container">
+        <div className="h-screen flex flex-col justify-between">
+          <Hero />
+          <div className="flex flex-col gap-6">
+            <ToggleView onClick={() => setProjectsView()} view={projectsView} />
+            <section>{projectsView === 'grid' ? <ProjectsGrid /> : <ProjectsList />}</section>
+          </div>
+          <Footer />
         </div>
-        <Footer />
       </div>
-    </div>
+    </>
   );
 }
