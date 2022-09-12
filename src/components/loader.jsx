@@ -47,7 +47,7 @@ export default function Loader({ finishLoading }) {
       isMounted={isMounted}
       id="loader"
       className="grid justify-center items-center fixed inset-0 h-screen bg-gray-900">
-      <Svg name="ap-logo" id="loader__logo" className="h-24" />
+      <Svg name="ap-logo" id="loader__logo" className="h-24 text-cyan-400" />
     </div>
   );
 }

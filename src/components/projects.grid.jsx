@@ -7,7 +7,7 @@ export default function ProjectsGrid() {
       {projects.map((project, index) => (
         <article
           key={index}
-          className="grow flex flex-col justify-between p-5 rounded-lg bg-slate-800 border border-slate-700 relative hover:border-teal-400 transition-[border] before:content-[''] before:absolute before:inset-0 before:bg-slate-800 before:w-full before:h-full before:rounded-lg before:border before:border-slate-700 before:opacity-60 before:-z-10 before:transition-[transform] hover:before:rotate-3 after:content-[''] after:absolute after:inset-0 after:bg-slate-800 after:w-full after:h-full after:rounded-lg after:border after:border-slate-700 after:opacity-40 after:-z-20 after:translate-x-2 after:translate-y-2 after:transition-[transform] hover:after:-rotate-3">
+          className="grow flex flex-col justify-between p-5 rounded-lg bg-slate-800 border border-slate-700 relative hover:border-cyan-400 transition-[border] before:content-[''] before:absolute before:inset-0 before:bg-slate-800 before:w-full before:h-full before:rounded-lg before:border before:border-slate-700 before:opacity-60 before:-z-10 before:transition-[transform] hover:before:rotate-3 after:content-[''] after:absolute after:inset-0 after:bg-slate-800 after:w-full after:h-full after:rounded-lg after:border after:border-slate-700 after:opacity-40 after:-z-20 after:translate-x-2 after:translate-y-2 after:transition-[transform] hover:after:-rotate-3">
           <div className="flex flex-col gap-5 mb-10">
             <span
               className={`text-xs w-fit px-2 py-1 rounded-full ${
