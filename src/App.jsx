@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useOutboundLink, useToggleView } from '~/hooks';
-import { Hero, ToggleView, ProjectsGrid, ProjectsList, Footer } from '~/components';
+import { Loader, Hero, ToggleView, ProjectsGrid, ProjectsList, Footer } from '~/components';
 
 export default function App() {
   useOutboundLink();
 
+  const [isLoading, setIsLoading] = useState(true);
   const [projectsView, setProjectsView] = useToggleView();
 
-  return (
+  return isLoading ? (
+    <Loader finishLoading={() => setIsLoading(false)} />
+  ) : (
     <div className="container">
       <div className="h-screen flex flex-col justify-between">
         <Hero />
