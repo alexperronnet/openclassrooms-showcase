@@ -1,12 +1,30 @@
-import React, { useState } from 'react';
-import { useOutboundLink, useToggleView } from '~/hooks';
+import React, { useState, useEffect } from 'react';
+import { useToggleView } from '~/hooks';
 import { Loader, Beams, Hero, ToggleView, ProjectsGrid, ProjectsList, Footer } from '~/components';
 
 export default function App() {
-  useOutboundLink();
-
   const [isLoading, setIsLoading] = useState(true);
   const [projectsView, setProjectsView] = useToggleView();
+
+  const handleExternalLinks = () => {
+    const allLinks = Array.from(document.querySelectorAll('a'));
+    if (allLinks.length > 0) {
+      allLinks.forEach(link => {
+        if (link.host !== window.location.host) {
+          link.setAttribute('rel', 'noopener noreferrer');
+          link.setAttribute('target', '_blank');
+        }
+      });
+    }
+  };
+
+  useEffect(() => {
+    if (isLoading) {
+      return;
+    }
+
+    handleExternalLinks();
+  }, [isLoading]);
 
   return isLoading ? (
     <Loader finishLoading={() => setIsLoading(false)} />
