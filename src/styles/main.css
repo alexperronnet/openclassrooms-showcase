@@ -11,6 +11,18 @@
     @apply bg-teal-400/10 text-teal-400;
   }
 
+  ::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-slate-900;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-800 rounded-full;
+  }
+
   .link-highlight {
     @apply relative before:transition-[width] before:content-[''] before:absolute before:inset-0 before:bg-teal-400/10 before:w-0 before:block hover:text-teal-400 hover:before:w-full;
   }
