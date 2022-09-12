@@ -19,12 +19,8 @@ export default function App() {
   };
 
   useEffect(() => {
-    if (isLoading) {
-      return;
-    }
-
     handleExternalLinks();
-  }, [isLoading]);
+  }, [isLoading, projectsView]);
 
   return isLoading ? (
     <Loader finishLoading={() => setIsLoading(false)} />
