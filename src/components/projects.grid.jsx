@@ -24,12 +24,16 @@ export default function ProjectsGrid() {
           </div>
           {project.status === 'Validated' ? (
             <div className="flex items-center gap-4">
-              <a href={project.links.source} className="text-sm w-fit link-highlight">
-                Source
-              </a>
-              <a href={project.links.demo} className="text-sm w-fit link-highlight">
-                Live
-              </a>
+              {project.links.source && (
+                <a href={project.links.source} className="text-sm w-fit link-highlight">
+                  Source
+                </a>
+              )}
+              {project.links.demo && (
+                <a href={project.links.demo} className="text-sm w-fit link-highlight">
+                  Demo
+                </a>
+              )}
             </div>
           ) : (
             <p className="text-sm text-slate-500 cursor-not-allowed line-through">
