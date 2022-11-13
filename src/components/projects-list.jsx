@@ -24,12 +24,16 @@ export default function ProjectsList() {
             </td>
             {project.status === 'Validated' ? (
               <td className="p-6 text-slate-100  border-l border-slate-700">
-                <a href={project.links.source} className="mr-4 link-highlight">
-                  Source
-                </a>
-                <a href={project.links.demo} className="link-highlight">
-                  Live
-                </a>
+                {project.links.source && (
+                  <a href={project.links.source} className="mr-4 link-highlight">
+                    Source
+                  </a>
+                )}
+                {project.links.demo && (
+                  <a href={project.links.demo} className="mr-4 link-highlight">
+                    Demo
+                  </a>
+                )}
               </td>
             ) : (
               <td className="p-6 text-slate-500 cursor-not-allowed line-through border-l border-slate-700">
