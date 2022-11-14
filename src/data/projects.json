@@ -53,50 +53,44 @@
     "title": "Debug and test an HR SaaS",
     "name": "Billed",
     "number": 9,
-    "status": "In Progress",
+    "status": "Validated",
     "links": {
-      "source": "",
-      "demo": ""
+      "source": "https://github.com/alexperronnet/openclassrooms-p9-billed"
     }
+  },
+  {
+    "title": "Define the needs for a tutoring app",
+    "name": "Learn@Home",
+    "number": 10,
+    "status": "In Progress",
+    "links": {}
   },
   {
     "title": "Develop a web application with React and React Router",
     "name": "Kasa",
     "number": 11,
     "status": "Not Started",
-    "links": {
-      "source": "",
-      "demo": ""
-    }
+    "links": {}
   },
   {
     "title": "Develop an analytics dashboard with React",
     "name": "SportSee",
     "number": 12,
     "status": "Not Started",
-    "links": {
-      "source": "",
-      "demo": ""
-    }
+    "links": {}
   },
   {
     "title": "Use an API for a bank account with React",
     "name": "Argent Bank",
     "number": 13,
     "status": "Not Started",
-    "links": {
-      "source": "",
-      "demo": ""
-    }
+    "links": {}
   },
   {
     "title": "Switch a jQuery library to React",
     "name": "Wealth Health",
     "number": 14,
     "status": "Not Started",
-    "links": {
-      "source": "",
-      "demo": ""
-    }
+    "links": {}
   }
 ]
