@@ -28,7 +28,7 @@ export default function App() {
     <>
       <Beams />
       <div className="container">
-        <div className="h-screen flex flex-col justify-between">
+        <div className="h-screen flex flex-col">
           <Hero />
           <div className="flex flex-col gap-6">
             <ToggleView onClick={() => setProjectsView()} view={projectsView} />
