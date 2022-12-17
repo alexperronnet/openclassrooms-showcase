@@ -62,14 +62,16 @@
     "title": "Define the needs for a tutoring app",
     "name": "Learn@Home",
     "number": 10,
-    "status": "In Progress",
-    "links": {}
+    "status": "Validated",
+    "links": {
+      "source": "https://github.com/alexperronnet/openclassrooms-p10-learn-at-home"
+    }
   },
   {
     "title": "Develop a web application with React and React Router",
     "name": "Kasa",
     "number": 11,
-    "status": "Not Started",
+    "status": "In Progress",
     "links": {}
   },
   {
