@@ -71,14 +71,17 @@
     "title": "Develop a web application with React and React Router",
     "name": "Kasa",
     "number": 11,
-    "status": "In Progress",
-    "links": {}
+    "status": "Validated",
+    "links": {
+      "source": "https://github.com/alexperronnet/openclassrooms-p11-kasa",
+      "demo": "https://kasa.alexperronnet.dev/"
+    }
   },
   {
     "title": "Develop an analytics dashboard with React",
     "name": "SportSee",
     "number": 12,
-    "status": "Not Started",
+    "status": "In Progress",
     "links": {}
   },
   {
